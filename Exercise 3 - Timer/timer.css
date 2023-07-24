@@ -1,4 +1,72 @@
-#myTimer {
-    color: red;
-    font-size: 64px;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myTimer{
+    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: beige;
+    height: 30rem;
+    width: 50rem;
+
+}
+.text-center{
+    text-align: center!important;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+#minus{
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(185, 227, 213);
+    border: 1px gray solid;
+    cursor: pointer;
+}
+.sec{
+    background-color: rgb(185, 227, 213);
+    border: 1px gray solid;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 6rem;
+    width: 20rem;
+}
+#plus{
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(185, 227, 213);
+    border: 1px gray solid;
+    cursor: pointer;
+}
+.down{
+    margin-top: 10px;
+    
+}
+#reset{
+    padding: 8px 40px;
+    font-size: 20px;
+    background-color: rgb(185, 227, 213);
+    border: 1px gray solid;
+    cursor: pointer;
+}
+#start{
+    padding: 8px 40px;
+    font-size: 20px;
+    background-color: rgb(185, 227, 213);
+    border: 1px gray solid;
+    cursor: pointer;
 }
